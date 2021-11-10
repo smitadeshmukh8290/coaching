@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	
+	font-family: 'IBM Plex Serif', serif;
+}
+.top_header{
+	padding: 20px 0;
+}
+.logo1, .logo_mobile{
+	width: 200px;
+    height: 70px;
+}
+.logo_mobile{
+	display: none;
+}
+.social_icon{
+	font-size: x-large;
+}
+.mobile_email a{color:#243642 !important;}
+.social_icon, .mobile_email{
+	text-align: right;
+}
+.blink{padding-left: 26px;}
+.blink a{
+	color: #f6783a;
+	font-size: 19px;
+	text-decoration: none;
+	display: block;
+	padding: 15px 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.c,.bg_color ,.bottom_navbar{
+	background: #020031;
+}
+
+.bottom_navbar nav .nav-link{
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 15px 15px;
+	color: #fff;
+	display: inline-block;
+}
+.bottom_navbar  .navbar-nav{
+	padding-left: 5.8rem;
+}
+
+.bottom_navbar .nav-link{
+	position:relative;
+}
+.bottom_navbar .nav-link:before{
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #031D44;
+  width: 0%;
+  bottom: 10px;
+  text-align: center;
+}
+.bottom_navbar .nav-link:hover::before{
+	width: 90%;
+}
+.bottom_navbar .nav-item{
+	padding:0 25px;
+}
+.navbar-nav .nav-item:hover{
+	background: #f6783a;
+}
+.form-select,.form-control{
+	background-color: #efefef;
+	border-radius: 0;
+    border: 1px solid #7b7b7b;
+	color:#6c757d;;
+}
+.modal-content{
+	background:#e2e2e2 !important;
+}
+.position_static{
+	position: static;
+}
+.positon_absolute{
+	/* position: absolute; */
+	width: 100%;
+	padding:15px !important;
+	background-color: #3f3d6b;
+	top: 67px;
+	border-radius:0;
+	left: 50%;
+	transform: translate(-50%);
+}
+.position_static:hover .positon_absolute{
+	display: inherit;
+}
+.color_text .dropdown-item {
+	color: #fff !important;
+	position: relative;
+	padding: 9px 0;
+	text-align: center;
+}
+.color_text .dropdown-item:hover{
+	background-color: #f6783a;
+	
+}
+.color_text .dropdown-item:before{
+	position: absolute;
+	content:"";
+	height: 4px;
+	bottom:4px;
+	background-color: #3f3d6b;
+	width: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	transition: 300ms;
+}
+.color_text .dropdown-item:hover::before{
+	width: 50%;
+}
+.color_text h6{
+	font-size: 22px;
+	color: #f6783a;
+}
+/* section slide start */
+.baner_img{
+	background-image: url(../images/baner.jpg);
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+	position: relative;
+}
+.content{
+width: 45%;
+right: 5%;
+position: absolute;
+text-align: right;
+color: #fff;
+padding: 20px;
+margin: 20px;
+bottom: 15%;
+}
+.content h1{
+	font-weight: bold;
+	font-size: 50px;
+}
+.content_para{
+	font-size:18px;
+	color: #fff;
+}
+/* section slide end */
+/* service section start */
+.service_title h1{
+	color:#f6783a;
+}
+.icon img{
+	width: 50px;
+height: 50px;
+}
+.service_title h3{
+	color:#0d4c9f !important
+}
+.service_title p{
+	color: #636363;
+	letter-spacing: 2px;
+}
+.content_icon h4{
+	margin-left: 22px;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+.content_icon ul  li{
+	color: #636363;
+    font-size: 14px;
+}
+.service1, .service2{
+	text-align: justify;
+}
+.social_right{
+	text-align: left;
+}
+.usefull_link{
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	justify-content: center;
+}
+.usefull_link ul li a{
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+	margin-bottom: 15px;
+	color: #b7b7b7;}
+.contact {
+	list-style-type: NONE;
+} 
+.contact li p{
+	color: #b7b7b7;
+	font-size: 14px;
+	display: inline-block;
+	margin-bottom: 21px;
+}
+.top_footer{
+	background: #020031;
+   background-image: url("../images/footer-bg.png");
+	background-repeat: no-repeat;
+	background-position: center 75px;
+}
+.fw-title{
+	color:#fff;
+	margin-bottom: 25px;	
+	padding-top: 20px;
+	text-transform: uppercase;
+	
+}
+.fw-contact{
+	color:#fff;
+	margin-bottom: 25px;	
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+.contact ul{
+	color: #b7b7b7;
+	list-style-type: none;
+}
+.contact ul li p a{
+	color: #f6783a !important;
+	text-decoration: none;
+}
+.contact ul li p a:hover{
+	text-decoration: underline;
+}
+.copy_right{
+	color: #b7b7b7;
+	padding: 0;
+}
+/* counter section start */
+.counter_section{
+	background-color: #020031;
+	color:#b7b7b7;
+}
+.counter_text h2{
+	color:#f6783a;
+}
+.couter_icon i{
+	color: #fff;
+	font-size: 37px;
+	margin-right: 20px;
+	line-height: 47px;
+	height: 47px;
+}
+.counter_text p{
+	text-transform: uppercase;
+	color: #fff;
+}
+/* meet course start */
+.heading_courses h4{
+	color: #0d4c9f !important;
+	text-transform: uppercase;
+}
+.heading_courses p{
+	opacity:0.7;
+}
+.meet_courses .card .card-body{
+	background: #efefef;
+}
+.meet_courses .card .card-body .card-title{
+	font-size: 18px;
+	color: #020031;
+	text-align: center;
+}
+/* about section start */
+.sub_about_content p,.key_content_about p{
+	text-align: justify;
+	opacity: 0.7;
+	line-height: 1.6;
+	font-size: 15px;
+}
+.position_logo{
+	position: relative;
+}
+.size_logo{
+	width: 64% !important;
+	position: absolute;
+	top: 50%;	
+}
+.sub_about_logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* about section end */
+/* topper studen about section start */
+
+.top_std_photo img{
+	width: 100%;
+	height: 167px;
+	border-radius: 50%;
+}
+.top_std_photo h5 ,.top_std_photo p{
+	text-align: center;
+}
+.top_std_photo p{
+	color: #f6783a;
+}
+/* topper studen about section end */
+/* center section start */
+.contact_info_wrap{
+	background: rgba(2, 0, 49, 0.8);
+	text-align: center;
+	
+}
+.contact_info h4,.contact_info p{
+	color:#fff;
+}
+/* center section end */
+@media(max-width:767px){
+	.top_header{
+		display: none;
+	}
+	.navbar{
+		padding:0 !important;
+	}
+	.bg_color{
+		background-color:transparent!important;
+	}
+	.bottom_navbar .navbar-nav{
+		text-align: center;
+	}
+	.blink{text-align: center;}
+	.logo_mobile{
+		display: block;
+	}
+	.bottom_navbar{
+		background-color: transparent;
+	}
+	.navbar-nav .nav-item:hover{
+		background:transparent;
+	}
+	.blink{padding-left: 0;}
+	.bottom_navbar  .navbar-nav{
+		padding-left: 0;
+	}
+}
